@@ -5,7 +5,7 @@ Typicallly used on (but not limited to) ARM-based Linux platforms (such as the R
 
 I found i2cget and i2cset cumbersome to use and not able to do 16 bit operations - at least not the version I was stuck with.
 
-Improvements to and comments on i2cio are welcome. 
+Improvements to and comments on i2cio are welcome (such as a proper installation facility).
 
 **Install & Build**
 ```
@@ -18,7 +18,7 @@ _or_
 
 **Syntax**
 ```
-        i2cio scan | read | write <parameters>
+    i2cio scan | read | write <parameters>
 ```
     
 ***scan***
@@ -61,8 +61,8 @@ _or_
     
 ***Other commands***
 ```
-        i2cio --version
-        i2cio -h | --help
+    i2cio --version
+    i2cio -h | --help
 ```
 
 ***Examples***
