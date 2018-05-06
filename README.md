@@ -53,7 +53,7 @@ _or_
                       Example: 38 (or 0x38)
         [w/]        = An optional width specifier: Options are: 8/, 16/, 24/
                       Example: 16/3006 (or 16/0x3006) means 16-bit value 0x3006.
-                      If nothing specified, the 8/ is assumed.
+                      If nothing specified, then 8/ is assumed.
         reg         = The I2C device register to read
                       Example: 52 (or 0x52) or 16/3006 or 24/0x3f4408
         value       = The value to write into the register
