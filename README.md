@@ -1,5 +1,4 @@
 # i2cio
-# 2024
 Generic alternative to 'i2cdetect', 'i2cget' and 'i2cset' which can handle 8, 16 and 24bit register and value widths.
 
 Typicallly used on (but not limited to) ARM-based Linux platforms (such as the Raspberry Pi, NVIDIA TX1/TX2 and others) to detect and access the I2C busses.
